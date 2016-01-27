@@ -13,3 +13,8 @@ X = np.random.normal(loc=1, scale=10, size=(1000, 50))
 # print (X)
 
 print (data['Pclass'].value_counts()[1]/data['Pclass'].count())
+
+
+print (data['Age'].mean())
+
+print (data['Age'].median())
