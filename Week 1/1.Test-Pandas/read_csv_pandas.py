@@ -19,7 +19,7 @@ def readCSV(name, indexColumn):
 def quize1(data):
 # Какое количество мужчин и женщин ехало на корабле? В качестве ответа приведите два числа через пробел.
     print ('--------------------------------------')
-    print ('1.Какое количество мужчин и женщин ехало на корабле? В качестве ответа приведите два числа через пробел.')
+    print ('1. Select count of neighbors.Какое количество мужчин и женщин ехало на корабле? В качестве ответа приведите два числа через пробел.')
     print (data['Sex'].value_counts())
     print (data['Sex'].value_counts().get_value(label='male'))
     print (data['Sex'].value_counts().get_value(label='female'))
