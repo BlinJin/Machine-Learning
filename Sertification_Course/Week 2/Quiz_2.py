@@ -157,7 +157,7 @@ def runPolinomN(degPolinom, funInit, poinx1, pointxn):
     for rNumb in range(degPolinom-1):
          pointXToApporximate.append(rnd.randint(poinx1 + 1, pointxn - 1))
     pointXToApporximate.append(pointxn)
-    # pointXToApporximate = np.arange(1, 15, 15/degPolinom)
+    # pointXToApporximate = np.arange(1, 15, 15/degPolinom)6у
 
     approximationMatrix = approximationPolinomMatrix(degPolinom, pointXToApporximate, funInit)
     approximationVector = approximationPolinomVector(pointXToApporximate, funInit)
@@ -182,4 +182,4 @@ def runPolinomN(degPolinom, funInit, poinx1, pointxn):
 
 # Запуск
 # runPolinomN(3,functQuiz, 1,15)
-runPolinom3()
+runPolinom1()
